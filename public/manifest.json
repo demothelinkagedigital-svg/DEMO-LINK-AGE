@@ -1,0 +1,80 @@
+{
+  "name": "The Linkage Digital",
+  "short_name": "Linkage Digital",
+  "description": "Creative digital agency specializing in web design, branding, and digital marketing",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#6f3f7f",
+  "icons": [
+    {
+      "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=192&height=192",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=512&height=512",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=192&height=192",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=512&height=512",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=540&height=720",
+      "sizes": "540x720",
+      "form_factor": "narrow",
+      "type": "image/webp"
+    },
+    {
+      "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=1280&height=720",
+      "sizes": "1280x720",
+      "form_factor": "wide",
+      "type": "image/webp"
+    }
+  ],
+  "categories": ["business", "technology"],
+  "shortcuts": [
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "description": "View our recent projects and portfolio work",
+      "url": "/portfolio",
+      "icons": [
+        {
+          "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=192&height=192",
+          "sizes": "192x192",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "Learn about our services",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "https://cdn.builder.io/api/v1/image/assets%2Fc9eb1ef2d46349c996d329a3c104d50e%2Feb0af1f72a8449918a7b57d25e11d152?format=webp&width=192&height=192",
+          "sizes": "192x192",
+          "type": "image/webp"
+        }
+      ]
+    }
+  ]
+}

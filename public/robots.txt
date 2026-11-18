@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow internal/system paths
+Disallow: /api/
+Disallow: /_build/
+
+Sitemap: https://www.thelinkagedigital.com/sitemap.xml

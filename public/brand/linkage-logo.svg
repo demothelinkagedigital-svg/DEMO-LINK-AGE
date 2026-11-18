@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Curved left shape (purple gradient) -->
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B2CBF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A0CA3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0096C7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00467F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Left curved loop -->
+  <path d="M 40 60 Q 20 100 40 140 Q 60 160 90 160 L 90 130 Q 70 130 60 110 Q 45 85 60 60 Q 70 45 90 50 L 90 20 Q 60 15 40 60 Z" fill="url(#purpleGrad)"/>
+  
+  <!-- Right curved line -->
+  <path d="M 90 50 L 90 160 Q 140 160 160 120 Q 170 100 160 80 Q 145 50 120 50 L 120 80 Q 135 80 140 95 Q 145 110 140 125 Q 130 140 115 140 L 115 70 Q 140 70 155 85 Q 170 105 160 130 Q 135 170 90 170 L 90 145 Q 130 145 150 110 Q 160 90 150 70 Q 135 55 110 50 Z" fill="url(#blueGrad)"/>
+  
+  <!-- Decorative squares top right -->
+  <rect x="110" y="30" width="18" height="18" fill="#FF006E"/>
+  <rect x="95" y="35" width="14" height="14" fill="#0096C7"/>
+  <rect x="128" y="20" width="16" height="16" fill="#00D9FF"/>
+  <rect x="145" y="38" width="12" height="12" fill="#0096C7"/>
+  
+  <!-- Small accent square -->
+  <rect x="105" y="55" width="10" height="10" fill="#FF006E"/>
+</svg>
